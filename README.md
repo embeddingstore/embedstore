@@ -48,7 +48,7 @@ Note : We will be actively updating and adding more features to the API. If you 
   # creating the payload
   payload = {"query": <PROMPT>,"dataset_params": {"dataset_id":"podcasts_01", "filters":{"category":["Business"]}}}
 
-  response = requests.get(url, headers=headers)
+  response = requests.post(url, headers=headers, json=payload)
 
   # check the response
   print(response.json())
