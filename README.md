@@ -2,8 +2,8 @@
  <img src="https://i.ibb.co/pwxHR5X/default-3.png" alt="The Documentation Compendium"></a>
 </p>
 
-<h3 align="center">Embedding.store <a href="https://playground.embedding.store/arxiv/?__theme=light">Try it out at Playground</a></h3>
-
+<h3 align="center">Embedding.store</h3>
+<h4 align="center"> <a href="https://playground.embedding.store/arxiv/?__theme=light">Try it out at Playground</a></h4>
 <div align="center">
 
 </div>
