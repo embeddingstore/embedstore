@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">Embedding.store</h3>
-
+<a href="https://playground.embedding.store/arxiv/?__theme=light">Try it out at Playground</a>
 <div align="center">
 
 </div>
