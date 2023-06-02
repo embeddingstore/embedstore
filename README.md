@@ -15,7 +15,7 @@
 - [How to use it?](#how-to-use-it)
   - [API details](#1-api-alpha---httpsapiembeddingstore)
   - [Playground UI](#2-playground-ui)
-- [Embeddings](#embeddings)
+- [Available Embeddings](#embeddings)
   - [Request for datasets](https://airtable.com/shrp2Z0aQA4tSUtZC)
 - [Get involved](#get-involved)
   - [Join Discord](https://discord.gg/hAnE4e5T6M)
