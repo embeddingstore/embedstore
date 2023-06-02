@@ -23,7 +23,7 @@
 
 
 ## What is Embedding.store? 
-
+We are hosting public embeddings for developers to augment their chatbot with additional, real-time context.
 
 ## How to use it?
 
