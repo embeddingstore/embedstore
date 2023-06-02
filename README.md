@@ -85,9 +85,9 @@ We have created a [playground](https://playground.embedding.store/) for you to e
 ## Embeddings
 
 | Dataset             | Dataset Name (for API access) | Description | Status | More details |
-| ------------------- | ----------------------------- | ------------------------------------------------------------- | ------ | ------------ |
-| Podcast Transcripts | podcasts_01                   | 30 most recent podcasts across Finance, Business and Technology  | Live   | [Link](https://docs.google.com/spreadsheets/d/1F-MRI7Cqi0YXTsHxbdLEsq_qeXmhSx1qzPoqvW3MOQI/edit?usp=sharing)             |
-| arXiv | arxiv_01                   |    -         | Coming Soon   |              |
+| ------------------- | ----------------------------- | ------------------------------------------------------------- | ------ | ------------ | 
+| Podcast Transcripts | podcasts_01                   | 30 most recent podcasts across Finance, Business and Technology  | Live   | [Link](https://docs.google.com/spreadsheets/d/1F-MRI7Cqi0YXTsHxbdLEsq_qeXmhSx1qzPoqvW3MOQI/edit?usp=sharing)             | 
+| arXiv | arxiv_01                   |    2.2M arxiv papers         | Live    |    -         |   
 | News | news_01                   |      -      | Coming Soon   |              |
  
 ## Get involved
