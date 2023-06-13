@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "embedstore"
-version = "0.0.4"
+version = "0.0.5"
 description = "Retrieving the most relevant context for your LLMs"
 readme = "README.md"
 license = { file = "LICENSE" }
