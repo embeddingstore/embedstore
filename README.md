@@ -60,7 +60,7 @@ contexts = arxiv_retriever.query("What is the state of the art in Autonomous Dri
 print(contexts[0])
 ```
 
-Read more [here]() for detailed usage guidelines. 
+Read more [here](#usage) for detailed usage guidelines. 
 
 ## What is this?
 TBD
