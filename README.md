@@ -68,7 +68,7 @@ Read more [here](#usage) for detailed usage guidelines.
 ## What is this?
 We are building context retrieval apis for developers creating chatbots, copilots and search tools on top of LLMs. You no longer need to maintain scraping and embedding pipelines, and instead focus on building your product. 
 
-Read more about RAG (retrieval augmented generation) [here](https://arxiv.org/pdf/2005.11401.pdf). 
+Read more about RAG (retrieval augmented generation) [here](https://twitter.com/pwang_szn/status/1663123050097946624). 
 
 <img src="https://i.ibb.co/jgQc4z9/Mindmap.png" alt="Logo">
 
