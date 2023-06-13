@@ -21,8 +21,10 @@
     <br />
     <br />
      <a href="https://colab.research.google.com/drive/1yhBhLmiPNtc06qVnjQRLsWuQDID3_cwl?usp=sharing">Try on Google Colab</a>
-    .
+    ∙
     <a href="https://playground.embedding.store/podcasts?__theme=light">Playground</a>
+    ∙
+    <a href="https://www.embedding.store/">Subscribe</a>
   </p>
 </div>
 
@@ -117,6 +119,8 @@ contexts = podcast_retriever.query(user_query,post_processing_config)
 ```
 ### Download raw embeddings
 You can download raw vector embeddings along with the metadata. 
+
+**Note**: we are limiting the downloads to 5000 vectors. If you want the full set of embeddings, reach out to us at hello@embedding.store.
 ```python
 from embedstore.rag.datadownloaders import download_embeddings
 
@@ -172,12 +176,12 @@ By default, the API returns the top 3 contexts right now. We will be adding opti
 
 ## Datasets
 
-| Dataset             | dataset_id | Description                                                     | Status      | Filters Available                                                                                                                                                                                                                                                                                    | More Details                                                                                                 |
-| ------------------- | ----------------------------- | --------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Podcast Transcripts | podcasts_01                   | 30 most recent podcasts across Finance, Business and Technology | Live        | - `category` : ["Finance","Business","Technology"]                                                                                                                                                                                                                                                 | [Link](https://docs.google.com/spreadsheets/d/1F-MRI7Cqi0YXTsHxbdLEsq_qeXmhSx1qzPoqvW3MOQI/edit?usp=sharing) |
-| arXiv               | arxiv_01                      | 2.2M arxiv papers                                               | Live        | - `category` : ['Computer Science', 'Quantitative Biology', 'Economics', 'Quantitative Finance', 'Statistics', 'Electrical Engineering and Systems Science', 'Mathematics', 'Physics']<br><br>- `publish_date_start` : To filter papers published after this date (string in `%Y-%m-%dT%H:%M:%SZ`) | -                                                                                                            |
-| Wikipedia                | wikipedia_01                       | -                                                               | Launching Soon |                                                                                                                                                                                                                                                                                                      |       
-| News                | news_01                       | -                                                               | Launching Soon |                                                                                                                                                                                                                                                                                                      |                 
+| Dataset             | dataset_id | Description                                                     | Status      | Filters Available                                                                                                 |
+| ------------------- | ----------------------------- | --------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Podcast Transcripts | podcasts_01                   | 30 most recent podcasts across Finance, Business and Technology | Live        | - `category` : ["Finance","Business","Technology"]                                                                                                                                                                                                                                                 | 
+| arXiv               | arxiv_01                      | 2M arxiv papers                                               | Live        | - `category` : ['Computer Science', 'Quantitative Biology', 'Economics', 'Quantitative Finance', 'Statistics', 'Electrical Engineering and Systems Science', 'Mathematics', 'Physics']<br><br>- `publish_date_start` : To filter papers published after this date (string in `%Y-%m-%dT%H:%M:%SZ`)                                                                                                            |
+| Wikipedia                | wikipedia_01                                                                                     | Launching Soon - [Subscribe](http://embedding.store/) |                                                                                                                                                                                                                                                                                                      |       
+| News                | news_01                                                                                     | Launching Soon - [Subscribe](http://embedding.store/) |                                                                                                                                                                                                                                                                                                      |       
 
 
 ## Get involved
