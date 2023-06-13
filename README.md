@@ -20,11 +20,9 @@
     <a href="#quick-start"><strong>Get started »</strong></a>
     <br />
     <br />
-    <a href="https://playground.embedding.store/podcasts?__theme=light">Playground</a>
-    ·
-    <a href="https://discord.gg/hAnE4e5T6M">Discord</a>
+     <a href="https://colab.research.google.com/drive/1yhBhLmiPNtc06qVnjQRLsWuQDID3_cwl?usp=sharing">Try on Google Colab</a>
     .
-    <a href="https://colab.research.google.com/drive/1yhBhLmiPNtc06qVnjQRLsWuQDID3_cwl?usp=sharing">Try out the library</a>
+    <a href="https://playground.embedding.store/podcasts?__theme=light">Playground</a>
   </p>
 </div>
 
