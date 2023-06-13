@@ -38,6 +38,8 @@ You have two ways to get started:
 
 
 ### Get API Key [here](https://api.embedding.store/register)
+**Note:** Currently we are rate-limiting all API keys to 100 requests/day
+
 Set the `EMBEDSTORE_API_KEY` as environment variable
 ```python
 import os
