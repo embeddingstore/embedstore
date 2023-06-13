@@ -6,7 +6,12 @@
   </a>
 
   <h3 align="center">embedstore</h3>
-<a href="https://pepy.tech/project/embedstore" alt="Downloads">
+
+  <p align="center">
+    Context retrieval apis to power your LLMs! <br/>
+    <a href="#quick-start"><strong>Get started »</strong></a>
+  </p>
+  <a href="https://pepy.tech/project/embedstore" alt="Downloads">
         <img src="https://static.pepy.tech/personalized-badge/embedstore?period=month&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads/month" /></a>
   <a href="https://discord.com/invite/hAnE4e5T6M">
     <img src="https://dcbadge.vercel.app/api/server/hAnE4e5T6M?compact=true&style=flat" />
@@ -15,16 +20,12 @@
     <img src="https://img.shields.io/github/license/embeddingstore/embedstore"/>
   </a>
   <p align="center">
-    Context retrieval apis to power your LLMs!
-    <br />
-    <a href="#quick-start"><strong>Get started »</strong></a>
-    <br />
     <br />
      <a href="https://colab.research.google.com/drive/1yhBhLmiPNtc06qVnjQRLsWuQDID3_cwl?usp=sharing">Try on Google Colab</a>
     ∙
-    <a href="https://playground.embedding.store/podcasts?__theme=light">Playground</a>
+    <a href="https://playground.embedding.store/podcasts?__theme=light">Test API</a>
     ∙
-    <a href="https://www.embedding.store/">Subscribe</a>
+    <a href="https://www.embedding.store/">Subscribe for Early Access</a>
   </p>
 </div>
 
