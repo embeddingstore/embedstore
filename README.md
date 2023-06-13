@@ -14,7 +14,7 @@
   <a href="https://pepy.tech/project/embedstore" alt="Downloads">
         <img src="https://static.pepy.tech/personalized-badge/embedstore?period=month&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads/month" /></a>
   <a href="https://discord.com/invite/hAnE4e5T6M">
-    <img src="https://dcbadge.vercel.app/api/server/hAnE4e5T6M?style=flat" />
+    <img src="https://img.shields.io/discord/1111412701651013713?label=discord" />
   </a>
   <a>
     <img src="https://img.shields.io/github/license/embeddingstore/embedstore"/>
