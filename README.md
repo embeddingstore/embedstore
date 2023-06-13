@@ -47,8 +47,8 @@ Pass the API key as header if you are calling the endpoint directly. More detail
 headers = {'API-Key': <YOUR_API_KEY>}
 ```
 
-### Retrieve contexts
-In a few lines of code, you can now start retrieving relevant contexts to get better answers from your LLM. We have already embedded Podcast Transcripts and Arxiv Research Papers, with new dataset drops every week ([full list here](#datasets))
+### Retrieve context
+In a few lines of code, you can now start retrieving relevant context to get better answers from your LLM. We have already embedded Podcast Transcripts and Arxiv Research Papers, with new dataset drops every week ([full list here](#datasets))
 ```python
 from embedstore.rag.retrievers import EmbedStoreRetriever
 
@@ -56,16 +56,19 @@ from embedstore.rag.retrievers import EmbedStoreRetriever
 arxiv_retriever = EmbedStoreRetriever(dataset_id = "arxiv_01", num_docs=3)
 
 # Query the retriever
-contexts = arxiv_retriever.query("What is the state of the art in Autonomous Driving security and safety?")
+context = arxiv_retriever.query("What is the state of the art in Autonomous Driving security and safety?")
 
-# Examine the retrieved contexts and then append it to the prompt before you call your LLM
-print(contexts[0])
+# Examine the retrieved context and then append it to the prompt before you call your LLM
+print(context[0])
 ```
 
 Read more [here](#usage) for detailed usage guidelines. 
 
 ## What is this?
-TBD
+We are building context retrieval apis for developers creating chatbots, copilots and search tools on top of LLMs. You no longer need to maintain scraping and embedding pipelines, and instead focus on building your product. 
+
+Read more about RAG (retrieval augmented generation) [here](https://arxiv.org/pdf/2005.11401.pdf). 
+
 <img src="https://i.ibb.co/jgQc4z9/Mindmap.png" alt="Logo">
 
 ## Usage
@@ -73,12 +76,12 @@ TBD
 `EmbedStoreRetriever` serves as the single point of entrance to interact with the embedstore.
 
 Parameters to initialize the class :
-- `dataset_id (str)` : Dataset to query and retrieve contexts from (eg: `arxiv_01`, `podcasts_01`)
-- `num_docs (int)` : Number of contexts to retrieve from the embeddings
+- `dataset_id (str)` : Dataset to query and retrieve context from (eg: `arxiv_01`, `podcasts_01`)
+- `num_docs (int)` : Number of context to retrieve from the embeddings
 
 
 ### Advanced filtering while querying
-You can use `EmbedStoreRetriever.query()` to get contexts based on the user prompt and also perform filtering.
+You can use `EmbedStoreRetriever.query()` to get context based on the user prompt and also perform filtering.
 
 The `query()` function takes two inputs:
 - `prompt (str)`: The user prompt that you are querying for 
@@ -99,7 +102,7 @@ user_query = "What are some recent papers about CRISPR? Give me a brief summary 
 post_processing_config = {"filters":{"publish_date_start":"2022-12-01T0:0:0Z"}}
 
 # Calling the `query()` function
-contexts = arxiv_retriever.query(user_query,post_processing_config)
+context = arxiv_retriever.query(user_query,post_processing_config)
 ```
 
 #### Example : Categorical filter on Podcast Transcripts
@@ -115,7 +118,7 @@ user_query = "What are people saying about the new Twitter CEO?"
 post_processing_config = {"filters":{"category":["Business","Technology"]}}
 
 # Calling the `query()` function
-contexts = podcast_retriever.query(user_query,post_processing_config)
+context = podcast_retriever.query(user_query,post_processing_config)
 ```
 ### Download raw embeddings
 You can download raw vector embeddings along with the metadata. 
@@ -157,7 +160,7 @@ Add the API key in the header : `{'API-Key'='<YOUR_API_KEY>'`
 **Parameters**
 | Param             | Details | Type  | Example
 | ------------------- | ----------------------------- | -------- | ----------------------------- |
-| query | the prompt on which contexts need to be retrieved  | `str`  | `What does Tim Ferris say about productivity?` |
+| query | the prompt on which context need to be retrieved  | `str`  | `What does Tim Ferris say about productivity?` |
 | dataset_params | a dictionary of dataset specific parameters like dataset_id and filters. [check here](#datasets) for available filters  |  `dict` | `{"dataset_id":"podcasts_01", "filters":{"category":["Business"]}` |
 
 By default, the API returns the top 3 contexts right now. We will be adding options to control this soon.
