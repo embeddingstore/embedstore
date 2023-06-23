@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="http://embedding.store/">
     <img src="https://i.ibb.co/tP6WX0j/default-2.png" alt="Logo" width="80" height="80">
   </a>
 
