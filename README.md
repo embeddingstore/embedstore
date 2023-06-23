@@ -9,7 +9,8 @@
 
   <p align="center">
     Context retrieval apis to power your LLMs! <br/>
-    <a href="#quick-start"><strong>Get started »</strong></a>
+   🚀 <a href="https://playground.embedding.store/wikipedia/?__theme=light"><strong>Recent Wikipedia embeddings launch »</strong></a>
+ 
   </p>
   <a href="https://pepy.tech/project/embedstore" alt="Downloads">
         <img src="https://static.pepy.tech/personalized-badge/embedstore?period=month&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads/month" /></a>
