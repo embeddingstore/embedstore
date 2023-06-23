@@ -7,7 +7,7 @@ class EmbedStoreRetriever:
     Base class for retreiver
     """
     def _validate_dataset_id(self,dataset_id):
-        available_dataset_id = ['podcasts_01','arxiv_01']
+        available_dataset_id = ['podcasts_01','arxiv_01','wikipedia_01']
         if dataset_id not in available_dataset_id:
             raise InvalidInput(f'Invalid dataset_id : Has to be one of the following - {available_dataset_id}')
     
