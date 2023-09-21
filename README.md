@@ -1,4 +1,4 @@
-
+Embedstore has a new home at [Kay.ai](https://github.com/kaydotai/kay)
 
 <div align="center">
   <a href="http://embedding.store/">
